@@ -37,8 +37,7 @@ from functools import reduce
 
 print('Iniciando...')
 pd.set_option("display.max_columns", 150)
-#dir_csv = 'C:\\Users\\69125\\Downloads\\bank\\bank.csv'
-dir_csv = 'C:\\Users\\Eliton\\Downloads\\bank\\bank.csv'
+dir_csv = '...\\bank.csv'
 dict_col_education = {'unknown': 0, 'primary': 1, 'secondary': 2, 'tertiary': 3}
 
 df_treino = pd.read_csv(dir_csv, ';', skip_blank_lines=True, encoding='utf-8')
